@@ -16,10 +16,7 @@ div {
     position: relative;
 }
 
-.icon {
-    width: 35px;
-    display: inline-block;
-}
+
 p {
     color: #f1f1f1;
     font-family: monospace;
