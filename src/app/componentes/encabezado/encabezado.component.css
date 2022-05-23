@@ -6,7 +6,6 @@
     top: 10px;
 }
 header {
-    height: 100vh;
     max-height: 1000px;
     background-color: #d9b0e8;
     border-radius: 50px;
@@ -19,16 +18,20 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+.photo {
+    height: auto;
+    border-radius: 200px !important;
+    position: absolute;
+    margin-left: 2%;
+    z-index: 5;
+    bottom: 0px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    background:url(https://media-exp1.licdn.com/dms/image/C4D03AQFsM7CbaIeMgQ/profile-displayphoto-shrink_200_200/0/1648586496267?e=1655337600&v=beta&t=Ofmxo7lI7gpeC71XdrqBTF9Fll1Z0alfLGUFWliGkG8);
+}
 .background-image {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
-#id-img {
-    width: auto;
-    height: 150px;
-    display: flow-root;
-    align-items: center;
 }
 .logoAr {
     width: 100%;
@@ -42,4 +45,10 @@ header {
     bottom: unset;
     margin: auto;
     position: absolute;
+}
+#name {
+    position: absolute;
+    z-index: 7;
+    bottom: 0px;
+    color: #d9b0e8;
 }

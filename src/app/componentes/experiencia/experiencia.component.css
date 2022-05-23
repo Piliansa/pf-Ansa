@@ -1,3 +1,18 @@
 img {
     width: 50px;
 }
+#experiencia {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.context {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+.titulo {
+    margin-left: 10px;
+    padding-left: 1em;
+}
