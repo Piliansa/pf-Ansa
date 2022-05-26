@@ -54,6 +54,7 @@ nav {
 #Arprog {
     width: 40%;
     min-width: 190px;
+    max-width: 266px;
     margin: auto;
     position: absolute;
     align-items: center;
