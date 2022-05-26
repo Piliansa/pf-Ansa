@@ -53,6 +53,7 @@ nav {
 
 #Arprog {
     width: 40%;
+    min-width: 190px;
     margin: auto;
     position: absolute;
     align-items: center;
@@ -66,7 +67,9 @@ nav {
     color: #d9b0e8;
     text-align: left;
 }
-
+.presentation {
+    max-height: 25vh;
+}
 @media (max-width: 576px) {
     #name {
         width: 100%;
@@ -102,7 +105,7 @@ nav {
 } */
 @media (max-width: 767px) {
     .presentation {
-        max-height: 200px;
+        min-height: 250px;
     }
     
 }
@@ -145,4 +148,5 @@ nav {
 }
 p {
     color: dimgray;
+    line-height: 1;
 }
