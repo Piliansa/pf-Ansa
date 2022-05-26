@@ -49,12 +49,10 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    justify-content: center;
-    bottom: 0px;
 }
 
 #Arprog {
-    width: 50%;
+    width: 40%;
     margin: auto;
     position: absolute;
     align-items: center;
@@ -62,6 +60,7 @@ nav {
 
 #name {
     margin: auto;
+    margin-left: 2rem;
     z-index: 7;
     bottom: 0px;
     color: #d9b0e8;
@@ -96,11 +95,11 @@ nav {
         width: 500px !important;
     }
 }
-@media (min-width: 576px) {
-    a.links {
+/* @media (min-width: 576px) {
+    .links {
         width: 25px;
     }
-}
+} */
 @media (max-width: 767px) {
     .presentation {
         max-height: 200px;
@@ -120,32 +119,30 @@ nav {
 
 @media (min-width: 992px) {
     #name {
-        margin-bottom: 0px;
-        margin-right: 0px;
-        position: relative;
-        right: 0px;
+        float: left;
     }
     .fix {
-        position: relative;
-        bottom: 0px;
+        float: left;
     }
-    .presentation {
-        flex-direction: row;
-        justify-content: space-between;
-}}
-a {
-    width: 50px;
+}
+.icon {
+    width: 100%;
     border-radius: unset !important;
 }
 .links {
-    position: relative;
-    width: auto;
-    height: fit-content;
-    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.links img {
+    max-width: 50px;
+    min-width: 30px;
+    padding: 10px;
+}
+.links a {
+    box-shadow: none;
 }
 p {
     color: dimgray;
-}
-.presentation {
-    max-height: 180px;
 }
