@@ -1,0 +1,22 @@
+.recuadro {
+    background-color: blanchedalmond;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+}
+h1, h2 {
+    font-size: large;
+}
+p {
+    color: blueviolet;
+}
+img {
+    width: 50px;
+}
+.edu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}

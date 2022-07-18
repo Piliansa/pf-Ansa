@@ -10,9 +10,11 @@
 #white {
     color: dimgrey;
     font-weight: bold;
+    font-size: 1em;
 }
 p {
     line-height: 1.2;
     color: black;
     text-align: justify;
+    font-size: 1em;
 }

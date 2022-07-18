@@ -8,15 +8,21 @@ div {
     position: relative;
 }
 
-
+.context {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+.titulo {
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: large;
+}
 p {
     color: #f1f1f1;
     font-family: 'Inter', sans-serif;
-    font-size: x-large;
 }
-
-
-
 .box {
     padding: 1em;
 }
@@ -35,7 +41,6 @@ h2, h3 {
 h4 {
     font-family: 'Inter', sans-serif;
     text-align: left;
-    font-size: 100%;
 }
 a {
     display: block;
@@ -61,7 +66,4 @@ section {
 }
 * {
     box-sizing: border-box;
-}
-h1, h2, h3, h4 {
-    font-size: 1rem;
 }
