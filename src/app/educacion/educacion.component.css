@@ -4,19 +4,36 @@
     padding: 10px;
     margin: auto;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-size: large;
 }
+
 p {
     color: blueviolet;
 }
+
 img {
     width: 50px;
 }
+
 .edu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
+}
+
+@media (min-width: 767px) {
+    #bachiller {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #bachiller {
+        margin-top: 25px;
+    }
 }
