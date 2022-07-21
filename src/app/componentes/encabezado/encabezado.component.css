@@ -61,11 +61,12 @@ nav {
 }
 
 #name {
+    font-size: large;
     margin: auto;
     margin-left: 2rem;
     z-index: 7;
     bottom: 0px;
-    color: #d9b0e8;
+    color: #a635cf;
 }
 .presentation {
     max-height: 25vh;
