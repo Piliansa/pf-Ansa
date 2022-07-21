@@ -42,17 +42,6 @@ h4 {
     font-family: 'Inter', sans-serif;
     text-align: left;
 }
-a {
-    display: block;
-    color: #f1f1f1 !important;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
-    border-radius: 50px;
-    transition: all .4s ease-in-out;
-}
-a:hover {
-    transform: scale(1.2);
-}
-
 section {
     padding: 2% 0 2% 0;
 }
